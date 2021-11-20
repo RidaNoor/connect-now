@@ -1,24 +1,11 @@
-# connect-now
+# The app demonstrate the use of following:
 
-## Project setup
-```
-npm install
-```
+1. Bootstrap
+2. CSS
+3. HTML
+4. Vue3
+5. TypeScript
+6. Use of third party plugins: Moment
+7. Creating custom elements: Custom Loader/Spinner
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Note: Please try to submit the form to view custom spinner functionality
