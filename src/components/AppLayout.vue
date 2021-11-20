@@ -84,4 +84,8 @@ export default {
   .btn-custom-bg {
     background-color: #5692e8 !important;
   }
+  .custom-alignment {
+    padding-left: 0.8rem; 
+    padding-right: 1rem; 
+  }
 </style>
