@@ -31,9 +31,9 @@
 
             <div class="form-group mt-5 mb-2">
               <label>Order By</label>
-              <div class="row" style="padding-left:1rem; padding-right:1rem">
-                <div class="col-lg-1 col-md-1 col-sm-1 btn-custom-bg">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="white" class="bi bi-arrow-up" viewBox="5 0 16 16">
+              <div class="row" style="padding-left:0.8rem">
+                <div class="col-lg-1 col-md-1 col-sm-1 btn-custom-bg p-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-up" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
                     </svg>
                 </div>
