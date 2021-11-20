@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="!loading" class="row justify-content-between">
-      <div class="col-lg-4 col-md-12 col-sm-12 pt-3">
+      <div class="col-lg-4 col-md-12 col-sm-12 pt-2">
         <div class="card card-background">
           <div class="card-body">
             <h5>Filter Results</h5>
@@ -46,8 +46,8 @@
             </div>
 
             <div class="row">
-              <div class="col-lg-9 col-md-12 col-sm-12"></div>
-              <div class="col-lg-3 col-md-12 col-sm-12">
+              <div class="col-lg-8 col-md-12 col-sm-12"></div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
                 <input type="button" class="btn btn-primary btn-rounded btn-lg btn-block" @click="clearFilters()" value="Clear"/>
               </div>
             </div>

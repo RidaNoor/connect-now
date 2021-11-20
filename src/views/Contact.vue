@@ -2,7 +2,7 @@
   <div>
     <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12"></div>
-      <div class="col-lg-5 col-md-12 col-sm-12">
+      <div class="col-lg-5 col-md-12 col-sm-12 mb-5">
         <h3>GET IN TOUCH</h3>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
         <form @submit.prevent="submit">
@@ -26,8 +26,8 @@
               <textarea v-model="message" class="form-control validate form-control-sm" rows=3 required></textarea>
             </div>
             <div class="row mt-3">
-              <div class="col-lg-9 col-md-12 col-sm-12"></div>
-              <div class="float-right col-lg-3 col-md-12 col-sm-12">
+              <div class="col-lg-8 col-md-12 col-sm-12"></div>
+              <div class="float-right col-lg-4 col-md-12 col-sm-12">
                 <button v-if="!loading" class="btn btn-primary btn-block">Send</button>
                 <loader-button v-else title=" Sending" bg="btn-block bg-success text-white"></loader-button>
               </div>
